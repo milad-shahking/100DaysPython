@@ -14,3 +14,8 @@ if choose_number_one == "right":
         ('Game Over')
 else:
     print('Game Over')
+
+
+
+
+#need to rewrite
