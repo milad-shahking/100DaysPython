@@ -1,3 +1,4 @@
+import random
 word_list = ['milad', 'leila', 'khashayar']
 #all_letters = set("".join(word_list))
 
@@ -30,13 +31,25 @@ enter_letter = input('please enter your choice : ')
 #    print('No')
 # work
 
-found_words = []
+#found_words = []
 
-for word in word_list:
-    if enter_letter in word:
-        found_words.append(word)
+#for word in word_list:
+#    if enter_letter in word:
+#        found_words.append(word)
 
-if found_words:
-    print('the words that there is this leeter : '.join(found_words))
-else:
-    print('there is not this letter in words')
+#if found_words:
+#    print(' '.join(found_words))
+#else:
+#    print('there is not this letter in words')
+
+
+chosen_word = random.choice(word_list)
+print(chosen_word)
+
+guess = input('guess a letter: ').lower()
+
+for letter in chosen_word:
+    if letter == guess:
+        print('Right')
+    else:
+        print('Wrong')
