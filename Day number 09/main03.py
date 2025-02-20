@@ -10,3 +10,6 @@ print(2 not in a)
 print(9 not in a)
 
 print(b is c)
+
+
+# i need to learn python part 1 => section 3 => strings
