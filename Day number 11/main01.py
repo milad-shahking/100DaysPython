@@ -1,0 +1,11 @@
+a = (1, 2, 3)
+b = (4, 5, 6)
+c = [1, 2, 3, 4, 5, 6]
+print(a * 2)
+print(0 not in a)
+print(len(b))
+print(max(b))
+print(type(c))
+d = tuple(c)
+print(d)
+print(type(d))
