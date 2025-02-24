@@ -7,3 +7,6 @@ if num >= 0:
         print('your number is positive')
 else:
     print('your number is negetive')
+
+
+# i need to learn python part 01 => section 04 => for&loops
