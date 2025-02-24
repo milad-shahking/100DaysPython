@@ -12,3 +12,6 @@ print(listNumber)
 #-------------------------------------------------
 checkEven = ['Even' if i % 2 == 0 else 'Odd' for i in range(1,21)]
 print(checkEven)
+
+
+# i need to learn python part1 => section 04 => while loops
