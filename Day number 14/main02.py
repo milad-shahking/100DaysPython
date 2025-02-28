@@ -7,3 +7,5 @@ def SumNumber(a , b):
     return a + b
 print(SumNumber(12 , 8))
 
+
+#i need to learn functions part 03
