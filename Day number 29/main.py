@@ -7,3 +7,4 @@ class ClassName():
 
 t = ClassName(5)
 print(t.param1)
+
